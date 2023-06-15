@@ -1,0 +1,14 @@
+.labelForm {
+  font-size: 26px;
+}
+
+.btnForm {
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.formInput {
+  margin-left: 5px;
+  font-size: 14px;
+}
