@@ -1,8 +1,17 @@
-.label {
-  font-size: 18px;
+.filter_label {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
 }
 
 .input {
-  margin-left: 10px;
-  font-size: 14px;
+  /* margin-top: 5px; */
+  font-size: 22px;
+  width: 300px;
+}
+
+.h3 {
+  font-weight: 400;
+  font-size: 22px;
 }

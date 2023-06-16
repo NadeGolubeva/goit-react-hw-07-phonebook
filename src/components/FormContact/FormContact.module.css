@@ -1,14 +1,24 @@
 .labelForm {
-  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 20px;
 }
 
 .btnForm {
   font-size: 24px;
   padding: 5px;
   border-radius: 5px;
+  background-color: rgba(168, 160, 151, 0.671);
 }
 
-.formInput {
-  margin-left: 5px;
-  font-size: 14px;
+.btnForm:hover {
+  background-color: rgba(86, 82, 82, 0.671);
+}
+
+.inputForm {
+  margin-top: 5px;
+  font-size: 20px;
 }

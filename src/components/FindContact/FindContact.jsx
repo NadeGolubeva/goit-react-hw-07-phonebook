@@ -1,24 +1,23 @@
 import css from './FindContact.module.css';
-
-import { setFilter } from 'redux/filterSlice';
-import { useDispatch, useSelector } from 'react-redux';
-import { getFilter } from 'redux/selectors';
+import { useDispatch, useSelector } from 'react-redux'; 
+import { setFilter } from '../../redux/filterSlice';
+import { selectorFilter } from '../../redux/selectors';
 
 export const FindContact = () => {
-    const dispatch = useDispatch();
-    const filter = useSelector(getFilter);
 
+const dispatch = useDispatch(); 
+const filter = useSelector(selectorFilter); 
+    
     return (
         <>
             <label
             className={css.label}>
-                <p>
+                <h3 className={css.h3}>
                      Find contact by name
-                </p>
+                </h3>
                 <input
-                    onChange={evt => dispatch(setFilter(evt.target.value.trim()))}
+                    onChange={event => dispatch(setFilter(event.target.value.trim()))}
                     type="text"
-                    name="filter"
                     value={filter}
                     className={css.input}
                 >

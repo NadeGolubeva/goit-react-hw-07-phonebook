@@ -1,8 +1,31 @@
-.names {
-  font-size: 22px;
+.contact_list {
+  font-size: 18px;
+  width: 320px;
 }
-.btn {
+
+.contact_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: -50px;
+}
+
+.contact_text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.contact_delbtn {
   font-size: 18px;
   padding: 5px;
   border-radius: 5px;
+  background-color: rgba(168, 160, 151, 0.671);
+}
+.contact_delbtn:hover {
+  background-color: rgba(86, 82, 82, 0.671);
+}
+.text {
+  font-size: 18px;
+  color: brown;
 }
